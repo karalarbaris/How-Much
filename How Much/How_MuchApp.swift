@@ -12,6 +12,7 @@ struct How_MuchApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .tint(.purple)
         }
     }
 }
